@@ -42,3 +42,10 @@ Screenshots can be added here if needed.
 
 ## Live Demo
 Not deployed yet.
+
+
+<!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Your CSS file -->
+    <link rel="stylesheet" href="styles.css">
