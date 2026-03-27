@@ -44,17 +44,4 @@ Screenshots can be added here if needed.
 Not deployed yet.
 
 
-/* =========================
-   BOX MODEL PRACTICE
-========================= */
-
-section {
-  width: 300px;               /* TOTAL WIDTH */
-  padding: 20px;              /* INSIDE SPACE */
-  border: 2px solid black;    /* BORDER */
-  margin: 20px auto;          /* SPACE BETWEEN BOXES */
-  box-sizing: border-box;     /* FIX WIDTH */
-  background-color: #f9f9f9;
-}
-
 
