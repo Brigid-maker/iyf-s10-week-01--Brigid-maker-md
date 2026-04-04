@@ -43,26 +43,3 @@ Screenshots can be added here if needed.
 ## Live Demo
 Not deployed yet.
 
-<footer class="footer">
-    <div class="footer-container">
-
-        <div>
-            <h3>About</h3>
-            <p>Student developer</p>
-        </div>
-
-        <div>
-            <h3>Links</h3>
-            <p>Home</p>
-            <p>Projects</p>
-        </div>
-
-        <div>
-            <h3>Contact</h3>
-            <p>Email@example.com</p>
-        </div>
-
-    </div>
-
-    <p class="copyright">© 2026 My Portfolio</p>
-</footer>
