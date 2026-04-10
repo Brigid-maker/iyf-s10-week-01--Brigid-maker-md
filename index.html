@@ -3,31 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> I am Cheryl Brigid</title>
-</head>
-<body>
-    <header>
+    <title>My Portfolio</title>
+<header>
         <nav>
-<a href="index.html">Home</a> |
-<a href="about.html">About</a> |
-<a href="projects.html">Projects</a> |
-<a href="contact.html">Contact</a>
+            <ul>
+<li><a href="index.html">Home</a></li> |
+<li><a href="about.html">About</a></li> |
+<li><a href="projects.html">Projects</a></li> |
+<li><a href="contact.html">Contact</a></li>
+</ul>
 </nav>
     </header>
-<h1>Welcome To My Portfolio</h1>
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/fc29918b-f188-47d8-a893-1833d9915ddd" />
 
-<p>I am currently learning Computer Programming at We Can Academy. I am passionate about web development and Program Design. Always eager to learn and grow in the tech community.</p>
-  
-<h2>My hobbies</h2>
-<ol> 
-<li>Reading</li>
-<li>Dancing</li>
-<li>Watching</li>
-</ol>  
-<h3>Favourite Website</h3>
-  <a href="https://github.com">GitHub</a>
-<h4>Email</h4>
-<p><a href="mailto:adhiambocheryl2018@gmail.com">adhiambocheryl2018@gmail.com</a></p>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Welcome To My Portfolio</h1>
+            <p>
+                I am currently learning Computer Programming at We Can Academy. 
+                I am passionate about web development and always eager to learn.
+            </p>
+        </header>
+
+        <section>
+            <h2>My Hobbies</h2>
+            <ol>
+                <li>Reading</li>
+                <li>Dancing</li>
+                <li>Watching</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Favourite Website</h2>
+            <p>
+                <a href="https://github.com" target="_blank">Visit GitHub</a>
+            </p>
+            <button>Reach Out</button>
+        </section>
+
+        <!-- BOX MODEL (Task 3.2) -->
+        <section>
+            <h2>Box Model Practice</h2>
+
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+
+            <div class="broken-box">Fixed Box (300px total)</div>
+        </section>
+
+        <!-- CARD COMPONENT -->
+        <section>
+            <h2>Project Card</h2>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Project">
+             <h3>My Project</h3>
+                <p>This is a sample project card showing layout and spacing.</p>
+                <button>View Project</button>
+            </div>
+        </section>
+       
+        <section>
+        <h2>Gallery</h2>
+        <div class="gallery"></div>        <img
+        src="https://images.unsplash.com/ photo-1507525428034-b723cf961d3e">
+        </div> 
+    </section>
+    </div>
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div>
+            <h3>About</h3>
+            <p>Student developer</p>
+        </div>
+
+        <div>
+            <h3>Links</h3>
+            <p>Home</p>
+            <p>Projects</p>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>Email@example.com</p>
+        </div>
+
+    </div>
+
+    <p class="copyright">© 2026 My Portfolio</p>
+</footer>
+
 </body>
 </html>
